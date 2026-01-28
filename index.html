@@ -319,6 +319,15 @@
     }
   </script>
 
+  <script>
+  function copyFromId(id) {
+    const text = document.getElementById(id).innerText;
+    navigator.clipboard.writeText(text);
+    alert("コピーしたよー🙌");
+  }
+　</script>
+
+
 </body>
 </html>
 
