@@ -319,13 +319,13 @@
     }
   </script>
 
-  <script>
+<script>
   function copyFromId(id) {
-    const text = document.getElementById(id).innerText;
+    const text = document.getElementById(id).textContent.trim();
     navigator.clipboard.writeText(text);
     alert("コピーしたよー🙌");
   }
-　</script>
+</script>
 
 
 </body>
